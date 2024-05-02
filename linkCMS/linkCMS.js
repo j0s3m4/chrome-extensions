@@ -6,8 +6,8 @@ function linkToCMS() {
     if (articleID) {
       const { hostname} = window.location;
 
-      const glideMode = hostname === 'qa.hellomagazine.com' ? 'qa' :
-                        (hostname === 'www.hellomagazine.com' || hostname === 'staging.hellomagazine.com') ? 'prod' :
+      const glideMode = hostname === 'qa.hellomagazine.com' || hostname === 'qa.hola.com' ? 'qa' :
+                        (hostname === 'www.hellomagazine.com' || hostname === 'staging.hellomagazine.com'|| hostname === 'www.hola.com' || hostname === 'staging.hola.com') ? 'prod' :
                         'dev';
 
       const url = glideMode === 'prod'
