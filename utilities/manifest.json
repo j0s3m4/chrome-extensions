@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Utilities",
-  "version": "1.0",
+  "version": "0.1",
   "description": "A set of utilities with configurable options.",
   "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
   "host_permissions": [
