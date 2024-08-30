@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Utilities",
+  "version": "1.0",
+  "description": "A set of utilities with configurable options.",
+  "permissions": ["storage", "activeTab", "scripting", "webNavigation"],
+  "host_permissions": [
+    "https://*.hola.com/*",
+    "http://*.hola.com/*",
+    "https://*.hellomagazine.com/*",
+    "http://*.hellomagazine.com/*",
+    "https://*.sandbox-hello.gcpp.io/*",
+    "http://*.sandbox-hello.gcpp.io/*",
+    "https://*.pub.hello.gcpp.io/*",
+    "http://*.pub.hello.gcpp.io/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+}

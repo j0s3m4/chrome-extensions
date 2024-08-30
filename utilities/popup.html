@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Hola! & Hello! Utilities</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/hola-logo.svg" alt="Hola logo" class="logo" />
+    </div>
+    <div class="header-right">
+      <img src="images/hello-logo.svg" alt="Hello logo" class="logo" />
+    </div>
+  </header>
+  <main>
+    <h2>UTILITIES</h2>
+    <div class="label-wrapper">
+      <label for="wordcount">Enable Word Count</label>
+      <label class="switch">
+        <input type="checkbox" id="wordcount" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <hr />
+    <div class="label-wrapper">
+      <label for="removeFixedWidth">Remove Fixed Width</label>
+      <label class="switch">
+        <input type="checkbox" id="removeFixedWidth" />
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="font-size-wrapper">
+      <label for="fontSizeSelect">Font Size Text:</label>
+      <select id="fontSizeSelect">
+        <option value="14px">14 px</option>
+        <option value="16px">16 px</option>
+        <option value="18px">18 px</option>
+        <option value="20px">20 px</option>
+        <option value="22px">22 px</option>
+        <option value="24px">24 px</option>
+        <option value="26px">26 px</option>
+      </select>
+    </div>
+    <div class="version">
+      v0.1
+    </div>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
